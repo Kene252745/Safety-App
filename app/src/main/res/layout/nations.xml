@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:background="@color/surface">
+    
+    <ImageView
+        android:id="@+id/countryImages"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/countryNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:text="@string/country"
+        android:textSize="@dimen/name_country"
+        android:paddingEnd="@dimen/world_margleeft"
+        android:paddingStart="@dimen/world_margleeft"/>
+
+
+
+
+</LinearLayout>

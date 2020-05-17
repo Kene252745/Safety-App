@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Covid-19 App</string>
+    <string name="button_text">location</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="recovered">Total Recovered</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="deaths">Death Count</string>
+    <string name="world_statistics">World Statistics</string>
+    <string name="cases">Total Cases</string>
+    <string name="stringtest">0</string>
+    <string name="critical">IUC Cases</string>
+    <string name="active">Active Cases</string>
+    <string name="new_cases">New Cases</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="deaths_today">Death Toll Today</string>
+    <string name="affected_countries">Country Count</string>
+    <string name="search_country">Search Country</string>
+    <string name="country">Country</string>
+</resources>

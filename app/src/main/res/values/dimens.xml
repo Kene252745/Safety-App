@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_world_stat">22sp</dimen>
+    <dimen name="text_size_world_stat_others">22sp</dimen>
+    <dimen name="world_margin_top">20dp</dimen>
+    <dimen name="lay_height">1dp</dimen>
+    <dimen name="world_margleeft">20dp</dimen>
+    <dimen name="world_margrit">20dp</dimen>
+    <dimen name="world_margtop">5dp</dimen>
+    <dimen name="name_country">16sp</dimen>
+</resources>
