@@ -430,18 +430,35 @@
 
     <Button
         android:id="@+id/locatebtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:background="@color/colorPrimary"
+        android:onClick="location"
+        android:padding="@dimen/btn_pad"
         android:text="@string/button_text"
         android:textColor="@color/color_white"
-        android:textSize="@dimen/butt_text_size"
-        android:padding="@dimen/btn_pad"
-        android:onClick="location">
+        android:textSize="@dimen/butt_text_size" />
 
-    </Button>
+    <Button
+        android:id="@+id/call_btn"
+        android:layout_width="128dp"
+        android:layout_height="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="19dp"
+        android:background="@color/colorPrimary"
+        android:onClick="call"
+        android:padding="@dimen/btn_pad"
+        android:text="@string/call"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/butt_text_size" />
 
 
 </RelativeLayout>

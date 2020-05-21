@@ -114,4 +114,8 @@ public class MainActivity extends AppCompatActivity {
     public void location(View view) {
         startActivity(new Intent(getApplicationContext(),NationCounts.class));
     }
+
+    public void call(View view) {
+        startActivity(new Intent(getApplicationContext(),HelpLine.class));
+    }
 }
