@@ -1,10 +1,16 @@
 package com.example.covid_19app;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -45,8 +51,47 @@ public class NationCounts extends AppCompatActivity {
         search_button = findViewById(R.id.search_button);
         simpleArcLoader = findViewById(R.id.countryLoader);
 
+        getSupportActionBar().setTitle("Country Count");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         getData();
 
+        countryList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                startActivity(new Intent(getApplicationContext(),ShowDetails.class).putExtra("position", position));
+
+            }
+        });
+
+        search_button.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                nationAdapter.getFilter().filter(s);
+                nationAdapter.notifyDataSetChanged();
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId()==android.R.id.home)
+            finish();
+        return super.onOptionsItemSelected(item);
     }
 
     private void getData() {

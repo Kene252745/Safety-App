@@ -16,4 +16,5 @@
     <string name="affected_countries">Country Count</string>
     <string name="search_country">Search Country</string>
     <string name="country">Country</string>
+    <string name="country_name">Country Name</string>
 </resources>

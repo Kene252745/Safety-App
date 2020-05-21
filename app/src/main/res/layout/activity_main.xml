@@ -156,7 +156,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         android:layout_marginTop="@dimen/world_margtop"/>
@@ -180,7 +180,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -189,7 +189,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         />
@@ -213,7 +213,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -222,7 +222,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         />
@@ -246,7 +246,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -255,7 +255,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         />
@@ -279,7 +279,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -288,7 +288,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         />
@@ -312,7 +312,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -321,7 +321,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         />
@@ -346,7 +346,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -355,7 +355,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         />
@@ -380,7 +380,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -405,7 +405,7 @@
                             android:text="@string/stringtest"
                             android:textAlignment="textEnd"
                             android:textSize="@dimen/text_size_world_stat_others"
-                            android:textColor="@color/color_one"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="bold"
                             android:layout_alignParentEnd="true"/>
 
@@ -414,7 +414,7 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/lay_height"
-                        android:background="@color/color_two"
+                        android:background="@color/case_color"
                         android:layout_marginStart="@dimen/world_margleeft"
                         android:layout_marginEnd="@dimen/world_margrit"
                         />
@@ -434,10 +434,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
-        android:background="@color/color_one"
+        android:background="@color/colorPrimary"
         android:text="@string/button_text"
-        android:textSize="17sp"
-        android:padding="5dp"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/butt_text_size"
+        android:padding="@dimen/btn_pad"
         android:onClick="location">
 
     </Button>
